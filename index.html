@@ -86,15 +86,7 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   const file = document.getElementById("pdfFile").files[0];
   if (!file) return alert("Select a PDF first!");
 
-  const decoded = await readPDFAndDecode(file);
-
-  // PHASE 1 parse
-  const structure = parsePP(decoded);
-
-  // Show structure in dev panel
-  const out = document.getElementById("devStructureOutput");
-  if (out) out.textContent = JSON.stringify(structure, null, 2);
-});
+  const decoded = await readPDFAndDecode(file); }
 </script>
 
 </body>
