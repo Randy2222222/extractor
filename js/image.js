@@ -21,7 +21,7 @@ async function fetchResults(searchQuery) {
         alert('Failed to search Unsplash');
     }
 }
-
+ 
 function displayResults(json) {
     const searchResults = document.querySelector('.js-search-results');
     searchResults.innerHTML = '';
