@@ -5,14 +5,14 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: Black;
-  color: Red;
+  color: Green;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 /* Header (blue banner) */
 header {
-  background-color: Red;
+  background-color: Green;
   color: Black;
   text-align: center;
   padding: 0.3em 0;      /* thin height */
@@ -28,9 +28,9 @@ header h1 {
 }
 
 /* PDF Upload box (right below header) */
-#pdf-upload {
+#fileUpload {
   background-color: Grey;
-  border: 1px solid Red;
+  border: 1px solid Green;
   border-radius: 6px;
   padding: 2px 0 8px 0;
   margin: 5px auto 8px auto;   /* tiny space under header */
@@ -39,7 +39,7 @@ header h1 {
 }
 
 /* Create Racing Form Button (spacing) */
-#runCreate {
+#fileLoad {
   display: block;
   margin: 2px auto 0 auto;  /* centers button + small gap above */
 }
@@ -63,17 +63,17 @@ header h1 {
   font-size: 1.2em;
 }
 
-#pdf-upload input[type="file"] {
+#fileUpload input[type="file"] {
   background-color:Grey;
   color: Red;
-  border: 1px solid Red;
+  border: 1px solid Green;
   border-radius: 5px;
   padding: 6px;
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
-#pdfStatus {
+#fileStatus {
   margin-top: 6px;
   margin-bottom: 0;
   font-size: 0.9em;
