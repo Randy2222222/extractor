@@ -28,7 +28,7 @@ header h1 {
 }
 
 /* PDF Upload box (right below header) */
-#file-Upload {
+#file-upload {
   background-color: Grey;
   border: 2px Green;
   text-align: center;
