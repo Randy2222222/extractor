@@ -28,7 +28,7 @@ header h1 {
 }
 
 /* PDF Upload box (right below header) */
-#pdf-upload {
+#inputfile {
   background-color: white;
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
