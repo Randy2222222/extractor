@@ -91,6 +91,7 @@ header h1 {
 }
 
 #pdfStatus {
+  background-color: Black;
   margin-top: 6px;
   margin-bottom: 0;
   font-size: 0.9em;
