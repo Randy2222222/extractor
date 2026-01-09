@@ -81,7 +81,7 @@ export async function readPDFAndDecode(file) {
  //   const structuredOut = document.getElementById("devStructuredOutput");
    //  if (structuredOut) structuredOut.textContent = out;
 
-//    return decodedText;
- //  }
+  return decodedText;
+  }
   return decodedText;
   }
