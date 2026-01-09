@@ -39,28 +39,13 @@
   <div id="program-output">
     <pre id="output"></pre>
   </div>
-<!-- Dev Panels -->
-  <!-- <div id="dev-panels">
 
-  <div style="border:1px solid #666; padding:10px; margin:10px;">
+<!--  <div style="border:1px solid #666; padding:10px; margin:10px;">
     <strong>RAW TEXT (DEV MODE)</strong>-->
     <div id="devRawOutput">
   </div>
 
-  <!--<div style="border:1px solid #666; padding:10px; margin:10px;">
-    <strong>CLEAN TEXT (NO Â)</strong>
-    <pre id="devCleanOutput"></pre>
-  </div>
 
-  <div style="border:1px solid #666; padding:10px; margin:10px;">
-    <strong>DECODED TEXT (GLYPH MAP)</strong>
-    <pre id="devDecodedOutput"></pre>
-  </div>
-    
-  <div style="border:1px solid #666; padding:10px; margin:10px;">
-    <strong>PARSED STRUCTURE (DEV MODE)</strong>
-    <pre id="devStructuredOutput"></pre>
-  </div>-->
     
 
 
@@ -104,30 +89,18 @@
   <!-- Your JS Files -->
     <script type="module">
   import { readPDFAndDecode } from "./js/pdfReader.js";
-
-
   // When user selects a PDF file, show page count immediately
 document.getElementById("pdfFile").addEventListener("change", async () => {
   const file = document.getElementById("pdfFile").files[0];
   if (!file) return;
-
   const pdf = await pdfjsLib.getDocument({ url: URL.createObjectURL(file) }).promise;
   document.getElementById("pdfStatus").textContent =
       `PDF loaded successfully (${pdf.numPages} pages)`;
 });
-
   document.getElementById("runCreate").addEventListener("click", async () => {
   const file = document.getElementById("pdfFile").files[0];
   if (!file) return alert("Select a PDF first!");
-
   const decoded = await readPDFAndDecode(file);
-
-  // PHASE 1 parse
- // const structure = parsePP(decoded);
-
-  // Show structure in dev panel
-//  const out = document.getElementById("devStructureOutput");
- // if (out) out.textContent = JSON.stringify(structure, null, 2);
 });
 </script>
   
