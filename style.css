@@ -33,7 +33,6 @@ header h1 {
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
   border: 2px Green;
-  radius: 5px;
   text-align: center;
   border-radius: 6px;
   padding: 0;
@@ -44,7 +43,8 @@ header h1 {
 
 
 #runCreate {
-  background-color: Yellow;
+  background-color: Green;
+  border-radius: 2px;
   color: Black;
   text-align: center;
   display: block;
@@ -91,11 +91,10 @@ header h1 {
 }
 
 #pdfStatus {
-  background-color: Black;
   margin-top: 6px;
   margin-bottom: 0;
   font-size: 0.9em;
-  color: Yellow;
+  color: Black;
 }
 
 /* Output area */
