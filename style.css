@@ -30,9 +30,10 @@ header h1 {
 /* PDF Upload box (right below header) */
 #pdf-upload {
   background-color: white;
+  color: Black;
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
-  border: 2px Green;
+  border: 5px Green;
   text-align: center;
   border-radius: 6px;
   padding: 0;
@@ -43,8 +44,8 @@ header h1 {
 
 
 #runCreate {
-  background-color: Green;
-  border-radius: 2px;
+  background-color: Yellow;
+  border-radius: 1px;
   color: Black;
   text-align: center;
   display: block;
