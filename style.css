@@ -100,7 +100,7 @@ header h1 {
   padding: 20px;
 }
 
-/* Compact call-time table */
+/* Compact call-time table 
 .compact-calls {
   font-size: 12px;
   text-align: center;
@@ -116,10 +116,10 @@ header h1 {
 
 .compact-calls th,
 .compact-calls td {
-  padding: 0 3px;   /* tight spacing */
+  padding: 0 3px;   /* tight spacing 
 }
 
-/* Compact Calls Table */
+/* Compact Calls Table 
 .compact-calls table {
   width: 100%;
   border-collapse: collapse;
@@ -138,7 +138,7 @@ header h1 {
   border-bottom: 1px solid #666;
 }
 
-/* Box around each horse's PP section */
+/* Box around each horse's PP section 
 .horse-pp-box {
   border: 1px solid #444;
   padding: 8px;
@@ -146,3 +146,4 @@ header h1 {
   background: #1a1a1a;
   border-radius: 6px;
 }
+*/
