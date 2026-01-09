@@ -18,13 +18,13 @@
   </header>
 
   <!-- Upload PDf Box (Matches your CSS exactly) -->
-  <div id="pdf-upload">
+    <div> 
     <h2>⚡️LOAD FILE!⚡️</h2>
 
-  
-    <input type="file" id="pdfFile">
+  <input type="file" name="inputfile" id="inputfile">
+  <!--  <input type="file" id="pdfFile">-->
        <!-- Create Form -->
-    <p id="pdfStatus">When Loaded - Click</p>
+  <!--  <p id="pdfStatus">When Loaded - Click</p>-->
   
     <!-- ⚪️ Create Button -->
     <button id="runCreate">READ</button>
@@ -51,24 +51,9 @@
         </div>
     </div>
   
-  <script type="module">
-  import { readPDFAndDecode } from "./js/pdfReader.js";
+  
 
-
-  // When user selects a PDF file, show page count immediately
-document.getElementById("pdfFile").addEventListener("change", async () => {
-  const file = document.getElementById("pdfFile").files[0];
-  if (!file) return;
-
-  const pdf = await pdfjsLib.getDocument({ url: URL.createObjectURL(file) }).promise;
-  document.getElementById("pdfStatus").textContent =
-      `PDF loaded successfully (${pdf.numPages} pages)`;
-});
-
-  document.getElementById("runCreate").addEventListener("click", async () => {
-  const file = document.getElementById("pdfFile").files[0];
-  if (!file) return alert("Select a PDF first!");
-  }
+  
   
 
 
@@ -93,7 +78,7 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   
   
 
-  <script src="js/pdfReader.js"></script>
+  <script src="js/fileReader.js"></script>
   <script src="js/pic.js"></script>
    <script src="js/tunes.js"></script>
   
