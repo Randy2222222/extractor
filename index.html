@@ -49,9 +49,34 @@
             <button id="play-pause-button">Play</button>
             <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
         </div>
-    </div>
-  
-  
+    </<script type="module">
+  import { readPDFAndDecode } from "./js/pdfReader.js";
+
+
+  // When user selects a PDF file, show page count immediately
+document.getElementById("pdfFile").addEventListener("change", async () => {
+  const file = document.getElementById("pdfFile").files[0];
+  if (!file) return;
+
+  const pdf = await pdfjsLib.getDocument({ url: URL.createObjectURL(file) }).promise;
+  document.getElementById("pdfStatus").textContent =
+      `PDF loaded successfully (${pdf.numPages} pages)`;
+});
+
+  document.getElementById("runCreate").addEventListener("click", async () => {
+  const file = document.getElementById("pdfFile").files[0];
+  if (!file) return alert("Select a PDF first!");
+
+  const decoded = await readPDFAndDecode(file);
+
+  // PHASE 1 parse
+  const structure = parsePP(decoded);
+
+  // Show structure in dev panel
+  const out = document.getElementById("devStructureOutput");
+  if (out) out.textContent = JSON.stringify(structure, null, 2);
+});
+</script>
 
   
   
