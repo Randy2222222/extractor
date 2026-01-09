@@ -32,7 +32,7 @@ export async function readPDFAndDecode(file) {
     if (rawOut) rawOut.textContent = rawText;
   }
 
-   Remove stray UTF-8 junk (Â)
+//   Remove stray UTF-8 junk (Â)
     let cleanText = rawText.replace(/Â/g, "");
    // ⭐⭐ INSERT THIS BLOCK RIGHT HERE ⭐⭐
   // Decode ns / hd / nk BEFORE glyphMap introduces fractions
