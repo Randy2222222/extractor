@@ -1,6 +1,6 @@
 // pdfReader!
 
-import { pic } from "./pic.js";
+//import { pic } from "./pic.js";
 
 const DEV_MODE = "raw";  // turn off later when finished
 
@@ -32,8 +32,8 @@ export async function readPDFAndDecode(file) {
     if (rawOut) rawOut.textContent = rawText;
   }
 
-  // Remove stray UTF-8 junk (Â)
-//  let cleanText = rawText.replace(/Â/g, "");
+   Remove stray UTF-8 junk (Â)
+    let cleanText = rawText.replace(/Â/g, "");
    // ⭐⭐ INSERT THIS BLOCK RIGHT HERE ⭐⭐
   // Decode ns / hd / nk BEFORE glyphMap introduces fractions
 //  cleanText = cleanText
