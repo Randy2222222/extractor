@@ -31,56 +31,7 @@ export async function readPDFAndDecode(file) {
     const rawOut = document.getElementById("devRawOutput");
     if (rawOut) rawOut.textContent = rawText;
   }
+  return rawText;
+}
 
-  // Remove stray UTF-8 junk (Â)
-  let cleanText = rawText.replace(/Â/g, "");
-   // ⭐⭐ INSERT THIS BLOCK RIGHT HERE ⭐⭐
-  // Decode ns / hd / nk BEFORE glyphMap introduces fractions
-  cleanText = cleanText
-    .replace(/¹/g, "ⁿˢ")
-    .replace(/²/g, "ʰᵈ")
-    .replace(/³/g, "ⁿᵏ");
-  // ⭐⭐ END INSERT ⭐⭐
-
-  // DEV MODE: show cleaned text
-  if (DEV_MODE === "clean") {
-    const cleanOut = document.getElementById("devCleanOutput");
-    if (cleanOut) cleanOut.textContent = cleanText;
-  }
-
-  // Decode Brisnet symbols
-  const decodedText = applyGlyphMap(cleanText);
-
-  // DEV MODE: show decoded text panel
-  if (DEV_MODE === "decoded") {
-    const decodedOut = document.getElementById("devDecodedOutput");
-   if (decodedOut) decodedOut.textContent = decodedText;
- }
-
- // return decodedText;   // parser will use this next
-//}
-// ===============================
-// 🔥 STRUCTURED PARSE OUTPUT
-// ===============================
-  if (DEV_MODE === "structured") {
-   const parsed = parsePP(decodedText);
-
-   let out = "=========== PARSED STRUCTURE ===========\n\n";
-
-  for (const h of parsed.horses) {
-    out += `HORSE ${h.post || "?"} — ${h.name || "UNKNOWN"}\n`;
-
-     h.pp.forEach((pp) => {
-    
-     });
-
-    out += "========================================\n\n";
-  }
-
-     const structuredOut = document.getElementById("devStructuredOutput");
-      if (structuredOut) structuredOut.textContent = out;
-
-    return decodedText;
-   }
-  return decodedText;
-  }
+  
