@@ -62,23 +62,23 @@ export async function readPDFAndDecode(file) {
 // ===============================
 // 🔥 STRUCTURED PARSE OUTPUT
 // ===============================
-//if (DEV_MODE === "structured") {
-//  const parsed = parsePP(decodedText);
+  if (DEV_MODE === "structured") {
+   const parsed = parsePP(decodedText);
 
-//  let out = "=========== PARSED STRUCTURE ===========\n\n";
+   let out = "=========== PARSED STRUCTURE ===========\n\n";
 
 //  for (const h of parsed.horses) {
 //    out += `HORSE ${h.post || "?"} — ${h.name || "UNKNOWN"}\n`;
 
 //    h.pp.forEach((pp) => {
     
-//    });
+     });
 
- //   out += "========================================\n\n";
-//  }
+    out += "========================================\n\n";
+  }
 
- //   const structuredOut = document.getElementById("devStructuredOutput");
-   //  if (structuredOut) structuredOut.textContent = out;
+     const structuredOut = document.getElementById("devStructuredOutput");
+      if (structuredOut) structuredOut.textContent = out;
 
     return decodedText;
    }
