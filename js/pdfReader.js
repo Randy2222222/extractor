@@ -1,14 +1,6 @@
-// pdfReader! 🪲 Free
+// pdfReader!
 
-// pdfReader
-
-// pdfReader with Calls
-
-
-// pdfReader.js
-// Clean, simple PDF loader with DEV MODE output
-//import { parsePP } from "./parsePP.js";
-//import { applyGlyphMap } from "./glyphMap.js";
+import { pic } from "./pic.js";
 
 const DEV_MODE = "raw";  // turn off later when finished
 
@@ -41,93 +33,55 @@ export async function readPDFAndDecode(file) {
   }
 
   // Remove stray UTF-8 junk (Â)
-  let cleanText = rawText.replace(/Â/g, "");
+//  let cleanText = rawText.replace(/Â/g, "");
    // ⭐⭐ INSERT THIS BLOCK RIGHT HERE ⭐⭐
   // Decode ns / hd / nk BEFORE glyphMap introduces fractions
-  cleanText = cleanText
-    .replace(/¹/g, "ⁿˢ")
-    .replace(/²/g, "ʰᵈ")
-    .replace(/³/g, "ⁿᵏ");
+//  cleanText = cleanText
+//    .replace(/¹/g, "ⁿˢ")
+//    .replace(/²/g, "ʰᵈ")
+//    .replace(/³/g, "ⁿᵏ");
   // ⭐⭐ END INSERT ⭐⭐
 
   // DEV MODE: show cleaned text
-  if (DEV_MODE === "clean") {
-    const cleanOut = document.getElementById("devCleanOutput");
-    if (cleanOut) cleanOut.textContent = cleanText;
-  }
+//  if (DEV_MODE === "clean") {
+ //   const cleanOut = document.getElementById("devCleanOutput");
+//    if (cleanOut) cleanOut.textContent = cleanText;
+//  }
 
   // Decode Brisnet symbols
-  const decodedText = applyGlyphMap(cleanText);
+//  const decodedText = applyGlyphMap(cleanText);
 
   // DEV MODE: show decoded text panel
-  if (DEV_MODE === "decoded") {
-    const decodedOut = document.getElementById("devDecodedOutput");
-   if (decodedOut) decodedOut.textContent = decodedText;
- }
+//  if (DEV_MODE === "decoded") {
+//    const decodedOut = document.getElementById("devDecodedOutput");
+//   if (decodedOut) decodedOut.textContent = decodedText;
+// }
 
  // return decodedText;   // parser will use this next
 //}
 // ===============================
 // 🔥 STRUCTURED PARSE OUTPUT
 // ===============================
-if (DEV_MODE === "structured") {
-  const parsed = parsePP(decodedText);
+//if (DEV_MODE === "structured") {
+//  const parsed = parsePP(decodedText);
 
-  let out = "=========== PARSED STRUCTURE ===========\n\n";
+//  let out = "=========== PARSED STRUCTURE ===========\n\n";
 
-  for (const h of parsed.horses) {
-    out += `HORSE ${h.post || "?"} — ${h.name || "UNKNOWN"}\n`;
+//  for (const h of parsed.horses) {
+//    out += `HORSE ${h.post || "?"} — ${h.name || "UNKNOWN"}\n`;
 
-    h.pp.forEach((pp) => {
+//    h.pp.forEach((pp) => {
      // out += `   Date: ${pp.date} ${pp.track} ${pp.race}\n`;
-      out += `   ${pp.date}${pp.track}${pp.race}\n`;
-    
-      //   out += `    Date: ${pp.date}\n`;
-    //  out += `    Track: ${pp.track}\n`;
-     // out += `    Race#: ${pp.race}\n`;
-      out += `     Glyph: ${pp.glyph}\n`;
-      out += `  Distance: ${pp.distance}\n`;
-      out += `   Surface: ${pp.surface}\n`;
+  //    out += `   ${pp.date}${pp.track}${pp.race}\n`;
+ //   });
 
-      out += `    Leader Times:\n`;
-      out += `        1c: ${pp.leaderTimes.leader1.raw || ""} ${pp.leaderTimes.leader1.sup || ""}\n`;
-      out += `        2c: ${pp.leaderTimes.leader2.raw || ""} ${pp.leaderTimes.leader2.sup || ""}\n`;
-      out += `        3c: ${pp.leaderTimes.leader3.raw || ""} ${pp.leaderTimes.leader3.sup || ""}\n`;
-      out += `     Final: ${pp.leaderTimes.leaderFinal.raw || ""} ${pp.leaderTimes.leaderFinal.sup || ""}\n`;
+ ///   out += "========================================\n\n";
+//  }
 
-      out += `        RR: ${pp.rr}\n`;
-      out += `  RaceType: ${pp.raceType}\n`;
-      out += `        CR: ${pp.cr}\n`;
+ //   const structuredOut = document.getElementById("devStructuredOutput");
+   //  if (structuredOut) structuredOut.textContent = out;
 
-     // out += `      Pace:\n`;
-      out += `        E1: ${pp.pace.e1}\n`;
-      out += `        E2: ${pp.pace.e2}\n`;
-      out += `        LP: ${pp.pace.lp}\n`;
-
-      out += `  1c Shape: ${pp.oneC}\n`;
-      out += `  2c Shape: ${pp.twoC}\n`;
-      out += `       SPD: ${pp.spd}\n`
-      out += `      Post: ${pp.pp}\n`
-      out += `     Start: ${pp.gate.gc}${pp.gate.lg}\n`
-      out += `   1stCall: ${pp.first.c1}${pp.first.lg}\n`
-      out += `   2ndCall: ${pp.second.c2}${pp.second.lg}\n`
-      out += `   StrCall: ${pp.straight.str}${pp.straight.lg}\n`
-      out += `    Finish: ${pp.finish.fin}${pp.finish.lg}\n`
-      out += `   Jockey#: ${pp.jockey}\n`
-      out += ` Equipment: ${pp.equipment}\n`
-      out += `      Odds: ${pp.odds}\n`
-      out += ` Finishers: ${pp.win.wn}${pp.win.lg}${pp.place.pl}${pp.place.lg}${pp.show.sh}${pp.show.lg}\n`
-      out += `  Comments: ${pp.comment}\n`
-      out += `     Field: ${pp.field}\n`
-    });
-
-    out += "========================================\n\n";
-  }
-
-    const structuredOut = document.getElementById("devStructuredOutput");
-     if (structuredOut) structuredOut.textContent = out;
-
-    return decodedText;
-   }
+//    return decodedText;
+ //  }
   return decodedText;
   }
