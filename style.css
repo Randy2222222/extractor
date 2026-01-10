@@ -92,7 +92,6 @@ header h1 {
 
 /* Output area */
 #program-output {
-  position: sticky;
   padding: 20px;
   height: 325px;
   
