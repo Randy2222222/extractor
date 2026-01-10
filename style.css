@@ -99,7 +99,7 @@ header h1 {
 
 .sidebar {
       width: 200px;
-      height: 350px;
+      height: 100px;
       background-color: White;
       color: Green;
       bordee: 1px solid Green;
@@ -128,6 +128,7 @@ header h1 {
 
 .controls {
     back-ground: White;
+  top: 10px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: Green;/* Stacks items vertically */
