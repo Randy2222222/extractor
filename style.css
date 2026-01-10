@@ -49,39 +49,8 @@ header h1 {
   color: Black;
   text-align: center;
   display: block;
-  margin: 2px auto 2px auto;  
+  margin: 2px auto 2px 
 }
-
-.player {
-    width: 200px;
-    margin: auto;
-    position: float;
-    top: 100 px;
-    left: 10px;
-    height: 150 px;
-    padding: 20px;
-    background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
-    background: white;
-    color: black;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.controls {
-  position: relative;
-    top: 100 px;
-    left: 10px;
-    height: 150 px;
-    margin: 10px 0;
-}
-
-.playlist {
-    color: green;
-    margin-top: 10px;
-}
-
- 
 
 #results {
   margin-top: -25px;            /* small, even space above results */
@@ -126,6 +95,34 @@ header h1 {
   padding: 20px;
   height: 325px;
   
+}
+
+#player {
+    width: 200px;
+  background-color: white;
+  color: green;
+    margin: auto;
+    position: float;
+    top: 100 px;
+    left: 10px;
+    height: 150 px;
+    padding: 20px;
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    border-radius: 10px;
+}
+
+#controls {
+  position: relative;
+    top: 100 px;
+    left: 10px;
+    height: 150 px;
+    margin: 10px 0;
+}
+
+#playlist {
+    color: green;
+    margin-top: 10px;
 }
 
 
