@@ -97,27 +97,25 @@ header h1 {
   
 }
 
-    .sidebar {
+    .container{
+      position: relative;
       width: 200px;
       height: 280px;
       background-color: Black;
       color: Green;
       bordee: 1px solid Green;
-      position: fixed;
       padding: 20px;
     
-    .content {
-      margin-left: 20px; /* Space for the sidebar */
-      padding: 20px;
-}
+    
     
 .player {
     width: 200px;
   background-color: white;
   color: green;
     margin: auto;
-    position: float;
-    top: 80px:
+    position: absolute;
+    left: 2%;
+    top: 20%;
     height: 80px;
     padding: 20px;
     background-image: radial-gradient(#090,
