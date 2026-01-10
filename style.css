@@ -100,9 +100,9 @@ header h1 {
 .sidebar {
       width: 200px;
       height: 200px;
-      background-color: Black;
-      color: green;
-      bordee: 1px solid green;
+      background-color: Wite
+      color: Green;
+      bordee: 1px solid Green;
       position: fixed;
       padding: 20px;
     }
@@ -116,8 +116,8 @@ header h1 {
   color: green;
     margin: auto;
     position: float;
-    top: 0;
-    left: 0;
+    top: 100px:
+    left: 20px;
     height: 100px;
     padding: 20px;
     background-image: radial-gradient(#090,
@@ -127,9 +127,11 @@ header h1 {
 
 
 .controls {
-    display: flex;
-    flex-direction: column; /* Stacks items vertically */
-    align-items: center;    /* Centers items */
+    back-ground: White;
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    color: Green;/* Stacks items vertically */
+    align-text: center;   /* Centers items */
 }
 #play {
   background-color: white;
