@@ -92,6 +92,7 @@ header h1 {
 
 /* Output area */
 #program-output {
+  position: sticky;
   padding: 20px;
   height: 325px;
   
@@ -113,7 +114,7 @@ header h1 {
   background-color: white;
   color: green;
     margin: auto;
-    position: sticky; /* was absolute*/
+    position: absolute;
     left: 2%;
     bottom: 250%;
     height: 80px;
