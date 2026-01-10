@@ -55,9 +55,8 @@ header h1 {
 .player {
     width: 200px;
     margin: auto;
-    position: relative;
+    position: float;
     top: 100 px;
-  
     left: 10px;
     height: 150 px;
     padding: 20px;
@@ -74,9 +73,6 @@ header h1 {
     top: 100 px;
     left: 10px;
     height: 150 px;
-    display: flex;
-  flex-direction: rows;
-  align-items: normal;
     margin: 10px 0;
 }
 
