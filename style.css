@@ -110,7 +110,27 @@ header h1 {
       margin-left: 220px; /* Space for the sidebar */
       padding: 20px;
     }
+.player {
+    width: 200px;
+  background-color: white;
+  color: green;
+    margin: auto;
+    position: float;
+    top: 0;
+    left: 0;
+    height: 100px;
+    padding: 20px;
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    border-radius: 10px;
+}
 
+
+.controls {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center;    /* Centers items */
+}
 #play {
   background-color: white;
   background-image: radial-gradient(#090,
@@ -151,32 +171,6 @@ header h1 {
           background-color: white;
           color: green;
         }
-          
-          
-    
-    
-
-.player {
-    width: 200px;
-  background-color: white;
-  color: green;
-    margin: auto;
-    position: float;
-    top: 0;
-    left: 0;
-    height: 100px;
-    padding: 20px;
-    background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
-    border-radius: 10px;
-}
-
-
-.controls {
-    display: flex;
-    flex-direction: column; /* Stacks items vertically */
-    align-items: center;    /* Centers items */
-}
 
 .playlist {
     color: green;
