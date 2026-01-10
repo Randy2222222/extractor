@@ -99,8 +99,8 @@ header h1 {
 
 .sidebar {
       width: 200px;
-      height: 100px;
-      background-color: White;
+      height: 350px;
+      background-color: Black;
       color: Green;
       bordee: 1px solid Green;
       position: fixed;
@@ -116,9 +116,9 @@ header h1 {
   color: green;
     margin: auto;
     position: float;
-    top: 100px:
+    top: 350px:
     left: 20px;
-    height: 100px;
+    height: 359px;
     padding: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
