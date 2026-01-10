@@ -97,7 +97,7 @@ header h1 {
   
 }
 
-.sidebar {
+/*.sidebar {
       width: 200px;
       height: 80px;
       background-color: Black;
@@ -107,9 +107,9 @@ header h1 {
       padding: 20px;
     }
     .content {
-      margin-left: 20px; /* Space for the sidebar */
+      margin-left: 20px; /* Space for the sidebar 
       padding: 20px;
-    
+    */
 .player {
     width: 200px;
   background-color: white;
@@ -123,7 +123,7 @@ header h1 {
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     border-radius: 10px;
-}
+
 
 
 .controls {
