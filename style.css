@@ -106,7 +106,7 @@ header h1 {
       bordee: 1px solid Green;
       padding: 20px;
     
-    
+    }
     
 .player {
     width: 200px;
@@ -116,7 +116,8 @@ header h1 {
     position: absolute;
     left: 2%;
     top: 0%;
-    height: 280px;
+  bottom: 80%;
+    height: 80px;
     padding: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
@@ -179,6 +180,6 @@ header h1 {
     color: green;
     margin-top: 10px;
 }
-    }
+    
 
 
