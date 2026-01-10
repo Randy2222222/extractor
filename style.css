@@ -103,9 +103,9 @@ header h1 {
   color: green;
     margin: auto;
     position: float;
-    top: 100 px;
-    left: 10px;
-    height: 150 px;
+    top: 0;
+    left: 0;
+    height: 100px;
     padding: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
