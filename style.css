@@ -100,7 +100,7 @@ header h1 {
     .container{
       position: relative;
       width: 200px;
-      height: 280px;
+      height: 80px;
       background-color: Black;
       color: Green;
       bordee: 1px solid Green;
@@ -115,7 +115,7 @@ header h1 {
     margin: auto;
     position: absolute;
     left: 2%;
-    top: 20%;
+    top: 0%;
     height: 80px;
     padding: 20px;
     background-image: radial-gradient(#090,
