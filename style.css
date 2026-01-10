@@ -111,6 +111,51 @@ header h1 {
       padding: 20px;
     }
 
+#play {
+  background-color: white;
+  background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+  color: black;
+  border-radius: 2px;
+  border: 1px solid green;
+  text-align: center;
+  padding: 5px auto 5x auto
+}
+  
+  #pause{
+    background-color: white;
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    color: black;
+    border-raduis: 2x;
+    border: 1px solid green;
+    text-align: center;
+    padding: 5px auto 5px auto;
+  }
+
+    #next {
+      background-color: white;
+      background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+      color: black;
+      text-align: center;
+      padding: 5px auto 5px auto;
+      {
+      
+      #repeat {
+        background-color: white;
+        background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+        color: black;
+        #volume {
+          background-color: white;
+          color: green;
+        }
+          
+          
+    
+    
+
 .player {
     width: 200px;
   background-color: white;
