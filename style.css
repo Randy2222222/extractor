@@ -183,12 +183,11 @@ header h1 {
       font-size: 1.5em;
       color: green;
       text-align: center;
-      margin-top: 190px;
+      margin-top: 200px;
       
      }
 
 footer {
-    height: 350px;
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
@@ -197,7 +196,6 @@ footer {
   /*  bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
     border-top: 2px solid green; 
-    bottom-margin: 80px;
 }
 
 /* Output area */
