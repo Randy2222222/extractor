@@ -188,12 +188,13 @@ header h1 {
      }
 
 footer {
+    height: 185px;
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
  /*   padding: 50px; /* Space inside the footer was 50px */
     position: relative; /* Positioning context */
-    bottom: 20%; /* Align to the bottom */
+    bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
     border-top: 2px solid green; 
  /*   margin-top: -28px;  */
