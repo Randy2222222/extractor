@@ -188,20 +188,21 @@ header h1 {
      }
 
 footer {
-    height: 150px;
+    height: 350px;
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-    padding: 0px;/* Space inside the footer was 50px */
+   /* padding: 0px;/* Space inside the footer was 50px */
     position: relative; /* Positioning context */
-    bottom: 0; /* Align to the bottom */
+  /*  bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
     border-top: 2px solid green; 
+    bottom-margin: 80px;
 }
 
 /* Output area */
 #program-output {
-  padding: 0px 20px; /* was 20px*/
+  padding: 0px 20px 0px 20px; /*was 20px*/
   height: 2px; /* was 150 px */
   
 }
