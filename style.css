@@ -35,7 +35,7 @@ header h1 {
                                 #fff, #2a4f32);
   border: 5px Green;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 0;
   margin: 2px auto 2px auto;   /* tiny space under header */
   width: 40%;
@@ -126,7 +126,7 @@ header h1 {
 
 .controls {
     back-ground: White;
-  top: 10px;
+  top: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: Green;/* Stacks items vertically */
