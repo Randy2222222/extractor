@@ -140,7 +140,8 @@ header h1 {
   border-radius: 2px;
   border: 1px solid green;
   text-align: center;
-  padding: 5px 10px 15px 10px;
+  padding: 5px auto 5px auto;
+  margin-bottom: 10px;
 }
   
   #pause{
@@ -151,7 +152,8 @@ header h1 {
     border-raduis: 2px;
     border: 1px solid green;
     text-align: center;
-    padding: 5px 10px 15px 10px;
+    padding: 5px auto 5px auto;
+    margin-bottom: 10px;
   }
 
     #next {
@@ -162,7 +164,8 @@ header h1 {
       border-radius: 2px;
       border: 1px solid green;
       text-align: center;
-      padding: 5px 5px 15px 10px;
+      padding: 5px auto 5px auto;
+      margin-bottom: 10px;
     }
       
    /*   #previous {
