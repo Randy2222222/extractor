@@ -187,7 +187,7 @@ footer {
     position: relative; /* Positioning context */
     bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
-     border-top: 2px green;
+     border-top: 2px solid green;
 }
 
 /* Output area */
