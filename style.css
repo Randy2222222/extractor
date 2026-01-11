@@ -191,7 +191,7 @@ footer {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-  /*  padding: 100px; /* Space inside the footer was 50px */
+    padding: 100px; /* Space inside the footer was 50px */
     position: relative; /* Positioning context */
     bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
@@ -201,7 +201,7 @@ footer {
 /* Output area */
 #program-output {
   padding: 0px 20px; /* was 20px*/
-/*  height: 80px; /* was 150 px */
+  height: 100px; /* was 150 px */
   
 }
 
