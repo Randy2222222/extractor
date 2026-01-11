@@ -26,6 +26,12 @@ header h1 {
   font-size: 3em;
   line-height: 1.2em;    /* vertically centered text */
 }
+h2 {
+  padding: 0; /* was missing might take back out*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
 
 /* PDF Upload box (right below header) */
 #pdf-upload {
