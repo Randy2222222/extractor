@@ -9,9 +9,10 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 
 const songs = [
-    { title: "Song 1", artist: "Artist 1", src: "song1.mp3" },
-    { title: "Song 2", artist: "Artist 2", src: "song2.mp3" },
-    { title: "Song 3", artist: "Artist 3", src: "song3.mp3" }
+    { title: "Lazy", artist: "Deep Purple", src: "lazy.mp3" },
+    { title: "What Baby Wants", artist: "Alice Cooper", src: "baby.mp3" },
+    { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "blaze.mp3" },
+    { title: "Low Rider", artist: "War", src: "low.mp3 }
 ];
 
 let currentSongIndex = 0;
