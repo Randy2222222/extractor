@@ -179,11 +179,12 @@ header h1 {
     margin-top: 10px;
 }
     h3 {
-      height: 180px;
       background-color: black;
       font-size: 1.2em;
       color: green;
       text-align: center;
+      margin-top: 185px;
+      
      }
 
 footer {
