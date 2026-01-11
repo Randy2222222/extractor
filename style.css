@@ -177,6 +177,18 @@ header h1 {
     color: green;
     margin-top: 10px;
 }
+/*Added Container for Signature */
+.container {
+  position: relative; /* Set the parent to relative */
+  height: 350px;     /* Set a height for the container */
+}
+
+.text {
+  position: absolute; /* Position the text absolutely */
+  bottom: 0;         /* Align to the bottom */
+  left: 50%;         /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+}
     h3 {
       font-size: 1.2em;
       color: green;
