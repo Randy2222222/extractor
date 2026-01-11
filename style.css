@@ -193,7 +193,7 @@ footer {
 /* Output area */
 #program-output {
   padding: 10px; /* was 20px*/
-  height: 350px;
+  height: 50px; /* was 150 px */
   
 }
 
