@@ -196,12 +196,12 @@ footer {
 /*    bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
     border-top: 2px solid green; 
-    margin-top: -32px;  
+    margin-top: -28px;  
 }
 
 /* Output area */
 #program-output {
-  padding: 10px; /* was 20px*/
+  padding: 0px 20px; /* was 20px*/
 /*  height: 150px; /* was 150 px */
   
 }
