@@ -20,7 +20,6 @@ header {
 }
 
 header h1 {
-  position: sticky; /* add sticky */
   margin: 0;
   padding: 0;
   text-align: center;
@@ -30,7 +29,6 @@ header h1 {
 
 /* PDF Upload box (right below header) */
 #pdf-upload {
-  position: sticky; /* add sticky */
   background-color: white;
   color: Black;
   background-image: radial-gradient(#090,
@@ -108,7 +106,7 @@ header h1 {
   background-color: white;
   color: black;
     margin: auto;
-    position: sticky; /* change from absolute to sticky */
+    position: absolute; 
     left: 2%;
     bottom:  70%;
     height: 60px;
@@ -120,7 +118,6 @@ header h1 {
 
 
 .controls {
-    position: sticky; /* add sticky */
     back-ground: White;
     top: 20px; /* was 20 */
     border-radius: 5px;
@@ -180,14 +177,19 @@ header h1 {
     color: green;
     margin-top: 10px;
 }
-    
+    h2 {
+      font-size: 1.2em;
+      color: white;
+      text-align: center;
+      padding-bottom: 3px;
+    }
 
 footer {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
  /*   padding: 10px; /* Space inside the footer was 50px */
-    position: sticky; /* Positioning context change from relative */
+    position: relative; /* Positioning context */
     bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
      border-top: 2px solid green;
