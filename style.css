@@ -191,7 +191,7 @@ header h1 {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-    padding: 80px; /* Space inside the footer was 50px */
+    padding: 100px; /* Space inside the footer was 50px */
     position: relative; /* Positioning context */
     bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
