@@ -90,13 +90,6 @@ header h1 {
   color: Black;
 }
 
-/* Output area 
-#program-output {
-  padding: 20px;
-  height: 325px;
-  
-}*/
-
     .container{
       position: relative;
       width: 200px;
@@ -117,7 +110,7 @@ header h1 {
     left: 2%;
     bottom:  70%;
     height: 60px;
-    padding: 20px;
+    padding: 10px; /* was 20 */
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     border-radius: 10px;
@@ -126,7 +119,7 @@ header h1 {
 
 .controls {
     back-ground: White;
-    top: 20px;
+    top: 5px; /* was 20 */
     border-radius: 5px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
