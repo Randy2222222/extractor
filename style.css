@@ -141,6 +141,7 @@ header h1 {
   border: 1px solid green;
   text-align: center;
   padding: 5px auto 5px auto;
+  margin-bottom: 10px;
 
 }
   
@@ -153,6 +154,7 @@ header h1 {
     border: 1px solid green;
     text-align: center;
     padding: 5px auto 5px auto;
+    margin-bottom: 10px;
     
   }
 
@@ -165,6 +167,7 @@ header h1 {
       border: 1px solid green;
       text-align: center;
       padding: 5px auto 5px auto;
+      margin-bottom: 10px;
       
     }
       
