@@ -110,7 +110,7 @@ header h1 {
     left: 2%;
     bottom:  70%;
     height: 60px;
-    padding: 10px; /* was 20 */
+    padding: 20px; /* was 20 */
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     border-radius: 10px;
@@ -121,7 +121,7 @@ header h1 {
     back-ground: White;
     top: 20px; /* was 20 */
     border-radius: 5px;
-    padding-bottom: 10px; /* add padding*/
+    padding-bottom: 1px; /* add padding*/
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: Green;/* Stacks items vertically */
