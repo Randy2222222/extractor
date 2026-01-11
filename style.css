@@ -115,7 +115,7 @@ header h1 {
     margin: auto;
     position: absolute;
     left: 2%;
-    bottom:  80%;
+    bottom:  70%;
     height: 80px;
     padding: 20px;
     background-image: radial-gradient(#090,
@@ -195,7 +195,7 @@ footer {
 /* Output area */
 #program-output {
   padding: 20px;
-  height: 20px;
+  height: 150px;
   
 }
 
