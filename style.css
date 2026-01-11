@@ -196,7 +196,7 @@ footer {
     bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
     border-top: 2px solid green; 
-    margin-top: 200px;  
+    margin-top: 2px;  
 }
 
 /* Output area */
