@@ -182,6 +182,7 @@ header h1 {
     /* PDF output area */
     h3 {
       background-color: black;
+      height: 80px;
       line-height: 10%; 
       font-size: 2em;
       color: green;
