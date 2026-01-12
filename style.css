@@ -182,7 +182,6 @@ header h1 {
     /* PDF output area */
     h3 {
       background-color: black;
-      height: 80px; /* add height */
       line-height: -400%; /* was set at 10% with no height and margin at 25% */
       font-size: 2em;
       color: green;
