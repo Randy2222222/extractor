@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="icon" type="image/png" href="icon.png">  <!-- Favicon -->
   <link rel="apple-touch-icon" href="icon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,9 +52,10 @@
         <div class="playlist" id="playlist"></div>
         <audio id="audio"></audio> 
     </div></div>
+         <!-- JavaScript Files -->
       <script src="js/tunes.js"></script>
-      <!-- Your JS Files -->
-  
+      
+      <!-- PDF Reader -->
     <script type="module">
   import { readPDFAndDecode } from "./js/pdfReader.js";
   // When user selects a PDF file, show page count immediately
@@ -71,14 +72,15 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   const decoded = await readPDFAndDecode(file);
 });
 </script>
+     <!-- Pictures -->
    <script src="js/pic.js"></script>
-   <script src="js/tunes.js"></script>
+  
   
 
 <h3>⚡️ FILE READOUT! ⚡️</h3>
 </body>
-  <footer><!-- Program Output Area -->
-  
+  <footer>
+  <!-- Program Output Area -->
   <div id="program-output">
     <pre id="output"></pre>
   </div>
