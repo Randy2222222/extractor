@@ -196,7 +196,6 @@ footer {
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
     width: 100%; 
-    height: 25%;
     border-top: 3px solid green; 
 }
 
