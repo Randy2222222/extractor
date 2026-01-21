@@ -92,9 +92,9 @@ header h1 {
 }
      /* container for holding MP3 player */
     .container{
-      position: fixed; /* Relative */
+      position: relative; /* Relative */
       width: 200px;
-      height: 180px;
+      height: 80px;
       background-color: Black;
       color: Green;
    /* border: 1px solid Green; */
