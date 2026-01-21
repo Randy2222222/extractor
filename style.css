@@ -194,7 +194,7 @@ footer {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-    position: relative;/* Positioning context relative*/
+    position: absolute;/* Positioning context relative*/
     width: 100%; 
     border-top: 3px solid green; 
 }
