@@ -15,7 +15,7 @@ const songs = [
     { title: "Low Rider", artist: "War", src: "War.mp3" },
     { title: "Mary had a little Lamb", artist: "Deep Purple", src: "Lamb.mp3" },
     { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "joe.mp3" },
-    { title: "The Sound of Silence", artist: "Simon and Garfunkel", src: "Silence.mp3" }
+    { title: "The Sound of Silence", artist: "Simon and Garfunkel", src: "The Sound of Silence.mp3" }
 ];
 
 let currentSongIndex = 0;
