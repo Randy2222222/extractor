@@ -13,7 +13,7 @@ const songs = [
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Baby.mp3" },
     { title: "Sitting' On The Dock Of The Bay", artist: "Otis Redding", src: "Sitting' On The Dock Of The Bay Otis Redding Ots.Platoon.mp3" },
     { title: "Low Rider", artist: "War", src: "War.mp3" },
-    { title: "Mary Had A Little Lamb", artist: "Deep Purple", src: "Mary Had A Little Lamb.mp3" },
+    { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Mary Had A Little Lamb.mp3" },
     { title: "Pimk Floyd Animals", artist: "Pink Floyd", src: "Pink Floyd 1977 Animals.mp3" },
     { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "The Sound Of Silence.mp3" }
 ];
