@@ -15,7 +15,7 @@ const songs = [
     { title: "Low Rider", artist: "War", src: "War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Mary Had A Little Lamb.mp3" },
     { title: "Pimk Floyd Animals", artist: "Pink Floyd", src: "Pink Floyd 1977 Animals.mp3" },
-    { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Simon and Garfunkel-The Sound Of Silence.mp3" }
+    { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Simon And Garfunkel - The Sound Of Silence.mp3" }
 ];
 
 let currentSongIndex = 0;
