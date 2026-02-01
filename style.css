@@ -207,6 +207,8 @@ footer {
 /* Removed padding:*/
   text-align: center;
 }
-
-
-
+#devRawOutput {
+  text-align: center;
+  margin: 100px 10px auto 10px;
+  padding: 25px 10px auto 10px;
+}
