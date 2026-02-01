@@ -196,7 +196,8 @@ footer {
     font-size: 1.5em; /* add font size */
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
-    width: 100%; 
+    width: 96%; /* was 100% */
+    margin: auto; /* added margin auto to center 🎨 green birder */
     padding: 20px 20px auto 20px; /* add padding/ 😱 top padding makes box */
  /*   margin does nothing❔*/
     border: 3px solid green; /* change from border top */
