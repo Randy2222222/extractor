@@ -197,16 +197,14 @@ footer {
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
     width: 100%; 
-    border-top: 3px solid green;
-    border-right: 3px solid green;
-    border-left: 3px solid green;
+    padding: 0px 20px auto 20px; /* add padding */
+    border: 3px solid green; /* change from border top */
 }
 
 /* Data Output */t
 #program-output {
   padding: 0px 20px 0px 20px; 
   text-align: center;
-  margin: 0px 15px auto 15px; /* add margin */
 }
 
 
