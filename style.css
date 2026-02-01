@@ -180,18 +180,14 @@ header h1 {
 }
     /* PDF output area */
     h3 {
-   /*   background-color: black; */
+      background-color: black; 
       line-height: 10%; /* was set at 10% with no height and margin at 25% */
       font-size: 2em;
       color: green;
       text-align: center;
-      width: 30%;
-      padding: 15px auto 15px auto;
-      margin: auto;
-     /* margin-bottom: 25px; /* margin bottom 25px moved line up */
+     /* margin-bottom: 25px; /*
    /*   padding: 0px auto 0px auto;*/
-       background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+       
      }
 
 footer {
