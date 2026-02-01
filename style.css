@@ -193,17 +193,20 @@ header h1 {
 footer {
     background-color:  black;
     color: green;
-    font-size: .5em; /* add font size */
+    font-size: 1em; /* add font size */
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
-    width: 90%; /* change from 100% */ 
-    border-top: 3px solid green; 
+    width: 100%; 
+    border-top: 3px solid green;
+    border-right: 3px solid green;
+    border-left: 3px solid green;
 }
 
 /* Data Output */t
 #program-output {
   padding: 0px 20px 0px 20px; 
   text-align: center;
+  margin: 0px 10px auto 10px; /* add margin */
 }
 
 
